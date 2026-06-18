@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && node scripts/copy-to-dist.mjs",
+    "build": "next build",
+    "build:netlify": "next build && node scripts/copy-to-dist.mjs",
     "start": "next start",
     "lint": "next lint"
   },

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix \"./Forte Final\"",
+  "buildCommand": "npm run build --prefix \"./Forte Final\"",
+  "outputDirectory": "Forte Final/out"
+}
