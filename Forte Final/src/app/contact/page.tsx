@@ -25,6 +25,10 @@ export default function ContactPage() {
                 <p className="text-xs uppercase tracking-widest text-[#5a6a85] font-medium mb-2">Business Enquiries</p>
                 <a href="mailto:info@fortedigitalsolutions.com" className="text-lg font-medium text-[#111] hover:underline">info@fortedigitalsolutions.com</a>
               </div>
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#5a6a85] font-medium mb-2">Phone</p>
+                <a href="tel:+918929728030" className="text-lg font-medium text-[#111] hover:underline">+91 89297 28030</a>
+              </div>
             </div>
             <div className="flex flex-col gap-8">
               <div>
